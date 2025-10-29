@@ -12,22 +12,23 @@ Audio for lab-based experiments are very clean. So this *should* be an easy tran
 
 ## Conclusion
 
-IMO, Whisper beats Wav2Vec2 in at least 3 ways:
+The comparison between Whisper and Wav2Vec2 reveals several key advantages of the Whisper model:
 
-1. More performant.
+1. Performance
+   - Approximately 20% faster transcription speed
+   - Potential for further performance optimization
 
-- Transcribed 20% faster.
+2. Accuracy
+   - Better handling of singular/plural forms (e.g., "apple" vs. "apples")
+   - More accurate spelling (e.g., "doggies" vs. "DOGGIYS")
 
-- Future enhancements could increase speed.
+3. Nuanced Output
+   - Enhanced punctuation handling including emphatic marks
+   - Better preservation of emotional context through punctuation
+   - Improved potential for downstream tasks like sentiment analysis
 
-2. More accurate.
-
-- Transcribed "apple" versus "apples" correctly.
-
-- Spelled "doggies" correctly as "doggies", not as "DOGGIYS".
-
-3. More nuanced.
-
-- Transcribed 3 sentences with emphatic punctuation (! instead of .)
-
-- Punctuation indicates emphasis and emotion, useful for downstream sentiment analysis.
+These differences make Whisper particularly suitable for applications requiring:
+- High transcription accuracy
+- Preservation of emotional context
+- Integration with sentiment analysis pipelines
+- Real-time or near-real-time processing
