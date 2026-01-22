@@ -1,6 +1,6 @@
 # NLP-speech-to-text
 
-Convert speech to text using HuggingFace, comparing Wav2Vec2 versus OpenAI Whisper
+Convert speech to text using HuggingFace, comparing Wav2Vec2 versus OpenAI Whisper.
 
 ## Data
 
